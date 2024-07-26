@@ -44,26 +44,6 @@ The agricultural sector struggles with low productivity, poor market access, lim
 
 And many more features available on our website!
 
-## Getting Started
-
-To get started with AgriNerds, follow these steps:
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/YourUsername/AgriNerds.git
-   ```
-2. **Navigate to the Project Directory**:
-   ```bash
-   cd AgriNerds
-   ```
-3. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. **Run the Application**:
-   ```bash
-   python app.py
-   ```
 
 ## Contributing
 
