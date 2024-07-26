@@ -1,5 +1,6 @@
 # AgriNerds - Transforming Agriculture
 <img src="farm1.png" alt="Agriculture" width="1000" height="500">
+
 ## Revolutionizing the Farming Sector
 
 Welcome to AgriNerds! We are on a mission to transform the agricultural landscape by leveraging cutting-edge technology and providing farmers with innovative tools and resources. Our project offers a comprehensive suite of features designed to support and empower the farming community.
