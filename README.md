@@ -46,6 +46,7 @@ The agricultural sector struggles with low productivity, poor market access, lim
 And many more features available on our website!
 
 
+
 ## Contributing
 
 We welcome contributions from the community! If you have any ideas, suggestions, or bug reports, please create an issue or submit a pull request.
