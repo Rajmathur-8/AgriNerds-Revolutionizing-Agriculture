@@ -55,6 +55,7 @@ We welcome contributions from the community! If you have any ideas, suggestions,
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+
 ## Contact
 
 For any inquiries or support, please contact us at [getrajeshkumarjena@example.com](mailto:getrajeshkumarjena@example.com).
