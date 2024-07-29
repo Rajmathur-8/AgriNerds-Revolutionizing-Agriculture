@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Fertilizer Prediction</title>
+</head>
+
+<body style="text-align:center;">
+    <div class="bg">
+        <div class="form_div">
+            <h1><u>Fertilizer Prediction</u></h1>
+            <form action="{{ url_for('predict')}}" method="post" id="Home">
+
+                <label for="temp" style="font-size:130%;" class="ff"><b>Temperature in °c</b></label><br>
+                <input type="number" name="temp" placeholder="Enter the temperature" required="required" /><br><br>
+
+                <label for="humid" style="font-size:130%;" class="ff"><b>Humidity in %</b></label><br>
+                <input type="number" name="humid" placeholder="Enter the humidity" required="required" /><br><br>
+
+                <label for="mois" style="font-size:130%;" class="ff"><b>Moisture in %</b></label><br>
+                <input type="number" name="mois" placeholder="Enter the moisture" required="required" /><br><br>
+
+                <label for="soil" style="font-size:130%;" class="ff"><b>Soil Type</b></label><br>
+                <select name="soil" id="soil">
+                    <option value=0>Black</option>
+                    <option value=1>Clayey</option>
+                    <option value=2>Loamy</option>
+                    <option value=3>Red</option>
+                    <option value=4>Sandy</option>
+                </select><br><br>
+
+                <label for="crop" style="font-size:130%;" class="ff"><b>Crop Type</b></label><br>
+                <select name="crop" id="crop">
+                    <option value=0>Barley</option>
+                    <option value=1>Cotton</option>
+                    <option value=2>Ground Nuts</option>
+                    <option value=3>Maize</option>
+                    <option value=4>Millets</option>
+                    <option value=5>Oil Seeds</option>
+                    <option value=6>Paddy</option>
+                    <option value=7>Pulses</option>
+                    <option value=8>Sugarcane</option>
+                    <option value=9>Tobacco</option>
+                    <option value=10>Wheat</option>
+                </select><br><br>
+
+                <label for="nitro" style="font-size:130%;"><b>Nitrogen in %</b></label><br>
+                <input type="number" name="nitro" placeholder="Enter the nitrogen" required="required" /><br><br>
+
+                <label for="pota" style="font-size:130%;"><b>Pottasium in %</b></label><br>
+                <input type="number" name="pota" placeholder="Enter the potassium" required="required" /><br><br>
+
+                <label for="phos" style="font-size:130%;"><b>Phosphorous in %</b></label><br>
+                <input type="number" name="phos" placeholder="Enter the phosphorous" required="required" /><br><br>
+
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
